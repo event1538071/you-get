@@ -38,6 +38,15 @@ class YouGetTests(unittest.TestCase):
         bilibili.download(
             'https://www.bilibili.com/video/av13228063/', info_only=True
         )
+        
+    def test_douyutv(self):
+        douyutv.download(
+            'https://www.douyu.com/288016/', info_only=True
+        )
+        douyutv.download(
+            'https://www.douyu.com/288016/', info_only=True
+        )
+        
 
 
 if __name__ == '__main__':
